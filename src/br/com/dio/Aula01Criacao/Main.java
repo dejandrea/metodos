@@ -19,6 +19,8 @@ public class Main {
         Calculadora.divisao(num1,num2);
         Calculadora.multiplicacao(num1,num2);
 
+        //Mensagem
+
         System.out.println("Exercício da mensagem:");
 
 //        System.out.println("Digite a hora:");
@@ -26,6 +28,8 @@ public class Main {
 
         long hora  = new Date().getHours();
         Mensagem.saudacao(hora);
+
+        //Emprestimo
 
         System.out.println("Exercício do Emprestimo:");
 
