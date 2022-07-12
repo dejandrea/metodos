@@ -26,5 +26,15 @@ public class Main {
 
         long hora  = new Date().getHours();
         Mensagem.saudacao(hora);
+
+        System.out.println("Exercício do Emprestimo:");
+
+        System.out.println("Digite o valor do emprestimo:");
+        double valor  = scan.nextDouble();
+
+        System.out.println("Digite o número de parcelas:");
+        int parcelas = scan.nextInt();
+
+        Emprestimo.calcular(valor,parcelas);
     }
 }
